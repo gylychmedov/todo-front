@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .flex-item-center {
+    @apply flex items-center;
+  }
+
+  .button-red {
+    @apply bg-red-50 hover:bg-red-100 text-red-500 duration-500 cursor-pointer rounded-xl flex-item-center justify-center;
+  }
+  .button-cyan {
+    @apply bg-cyan-50 hover:bg-cyan-100 text-cyan-500 duration-500 cursor-pointer rounded-xl flex-item-center justify-center;
+  }
+  .button-green {
+    @apply bg-green-50 hover:bg-green-100 text-green-500 duration-500 cursor-pointer rounded-xl flex-item-center justify-center;
+  }
+}
